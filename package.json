@@ -1,0 +1,26 @@
+{
+  "name": "study-test-code",
+  "version": "1.0.0",
+  "description": "📚 테스트 코드 공부 저장소: 유닛 테스트, 스냅샷 테스트, 통합 테스트, E2E 테스트 (Jest, Mock, Cypress)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpinetree/Study-Test-Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devpinetree/Study-Test-Code/issues"
+  },
+  "homepage": "https://github.com/devpinetree/Study-Test-Code#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.2"
+  }
+}
