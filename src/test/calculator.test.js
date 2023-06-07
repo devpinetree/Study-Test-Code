@@ -1,5 +1,5 @@
 /**
- * add 파일에 한해서 단위 테스트를 작성
+ * calculator 파일에 한해서 단위 테스트를 작성
  */
 const Calculator = require('../calculator');
 
@@ -28,6 +28,12 @@ describe('Calculator', () => {
     cal.set(1);
     cal.add(2);
     expect(cal.value).toBe(3);
+  });
+
+  it('add should throw an error if value is greater than 100', () => {
+    expect(() => {
+      cal.add(101);
+    }).toThrow(Error);
   });
 
   it('subtract', () => {
